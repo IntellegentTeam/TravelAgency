@@ -22,8 +22,6 @@ public class ReservationDelegate {
 	private static final Logger LOG = Logger.getLogger(ReservationDelegate.class.getName());
 	public TicketDetailsVO doReservation(ReservationDetailsVO reservationVO)
 	{
-	
-		
 		Ticket ticket=null;
 			Journey journey=null;
 			Passenger[] passengers=null;
